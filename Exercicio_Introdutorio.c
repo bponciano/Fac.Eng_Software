@@ -38,7 +38,7 @@ int main() {
 
     printf("Insira o numero de pontos turisticos dessa cidade\n");
     scanf("%i", &npt1);
-    printf("Terminamos o primeiro car");
+    printf("Terminamos o primeiro car\n");
 
     printf("Iremos preencher o segundo card\n");
     printf("--------------------------------------\n");
@@ -67,8 +67,8 @@ int main() {
     printf("Codigo: %s%c\n",codigo1, estado1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %0.2f\n", populacao1);
-    printf("Area: %0.2f\n", area1);
-    printf("PIB: %0.2f\n",pib1);
+    printf("Area: %0.2fm²\n", area1);
+    printf("PIB: R$%0.2f\n",pib1);
     printf("Numero de Pontos Turisticos: %i\n", npt1);
 
     printf("Carta 2:\n");
@@ -76,8 +76,8 @@ int main() {
     printf("Codigo: %s%c\n",codigo2, estado2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %0.2f\n", populacao2);
-    printf("Area: %0.2f\n", area2);
-    printf("PIB: %0.2f\n",pib2);
+    printf("Area: %0.2fm²\n", area2);
+    printf("PIB: R$%0.2f\n",pib2);
     printf("Numero de Pontos Turisticos: %i\n", npt2);
 
     return 0;
