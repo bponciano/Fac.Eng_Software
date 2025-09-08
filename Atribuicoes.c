@@ -13,5 +13,11 @@ int main(){
     resultado -= numero2;
     printf("resultado: %d\n", resultado);
 
+    // resultado = resultado * numero2
+    resultado *= numero2;
+    printf("resultado: %d\n", resultado);
 
+    // resultado = resultado * numero2
+    resultado /= numero2;
+    printf("resultado: %d\n", resultado);
 }
