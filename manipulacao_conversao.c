@@ -20,10 +20,10 @@ int main() {
     float produto_float = x * y;
     float quociente_float = x / y; // Note que a divisão de inteiros resulta em número inteiro
 
-    printf("Soma: %d\n", soma_float);
-    printf("Diferença: %d\n", diferenca_float);
-    printf("Produto: %d\n", produto_float);
-    printf("Quociente: %d\n", quociente_float);
+    printf("Soma: %.2f\n", soma_float);
+    printf("Diferença: %.2f\n", diferenca_float);
+    printf("Produto: %.2f\n", produto_float);
+    printf("Quociente: %.2f\n", quociente_float);
 
     return 0;
 
