@@ -8,13 +8,13 @@ int main() {
     printf("Número sem sinal %u\n", numerosemsinal);
 
     int numeronormal = 2147483647; //Valor maximo do int
-    long long int numerogrande = 2147483647;
+    long int numerogrande = 2147483647;
 
     printf("Número regular (int): %d\n", numeronormal);
-    printf("Número grande (long int): %lld\n", numerogrande);
+    printf("Número grande (long int): %ld\n", numerogrande);
 
-    long int numerogrande = 2147483648;
-    printf("Número grande atualizado (long it): %lld\n", numerogrande);
+    long long int numerogrande2 = 2147483648;
+    printf("Número grande atualizado (long it): %lld\n", numerogrande2);
 
     return 0;
 
