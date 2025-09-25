@@ -20,4 +20,5 @@ int main(){
     // resultado = resultado * numero2
     resultado /= numero2;
     printf("resultado: %d\n", resultado);
+    return 0;
 }

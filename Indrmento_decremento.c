@@ -32,4 +32,5 @@ printf("Após Pós incremento - Numero 1: %d - Resultado %d\n", numero1, resulta
 //rusultado = numero1;
 resultado = ++numero1;
 printf("Após Pre incremento - Numero 1: %d - Resultado %d\n", numero1, resultado);
+return 0;
 }

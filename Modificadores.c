@@ -15,8 +15,5 @@ int main() {
 
     long long int numerogrande2 = 2147483648;
     printf("Número grande atualizado (long it): %lld\n", numerogrande2);
-
     return 0;
-
-
 }
