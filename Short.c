@@ -5,5 +5,5 @@ int main() {
     printf("Numero pequeno (short int): %d\n", numeropequeno);
 
     short int numeropequeno = 32768;
-    printf("Numero pequeno (short int): %d\n", numeropequeno);
+    printf("Numero pequeno atualizado (short int): %d\n", numeropequeno);
 
